@@ -1,5 +1,0 @@
-<group name="global">
-hostname {{ hostname }}
-ntp server {{ ntp_server | IP }}
-clock timezone {{ timezone }}
-</group>
